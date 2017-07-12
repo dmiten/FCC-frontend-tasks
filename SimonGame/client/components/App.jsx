@@ -15,7 +15,6 @@ export default class App extends React.Component {
   initialConst = () => ({
     quant: 50,
     audioContext: new (window.AudioContext || window.webkitAudioContext)(),
-
     pressedStyle: {
       borderColor: "transparent",
       boxShadow: "1px 1px 4px White, -1px 1px 4px White, " +
