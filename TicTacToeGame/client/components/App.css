@@ -1,0 +1,73 @@
+#main_container {
+  overflow: hidden;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+#table {
+  width: 350px;
+  height: 350px;
+  padding-top: 30px;
+  text-align: center;
+  margin: 15px auto;
+  background-image: url(https://c1.staticflickr.com/5/4233/35402543256_1203712189_o.jpg);
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #160053;
+}
+
+.cell {
+  cursor: pointer;
+  display: inline-flex;
+  margin: 12px;
+  height: 73px;
+  width: 73px;
+  background-image: url(https://c1.staticflickr.com/5/4237/35402543026_777f181f1c_o.png);
+  -webkit-tap-highlight-color: transparent;
+}
+
+#buttons {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.button {
+  display: inline-flex;
+  cursor: pointer;
+  height: 73px;
+  width: 73px;
+  border-width: 1px;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #160053;
+  background-color: #d7d4cf;
+  background-image: url(https://c1.staticflickr.com/5/4237/35402543026_777f181f1c_o.png);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button:active {
+  box-shadow: 0px 0px 1px 1px MidnightBlue;
+  -webkit-box-shadow: 0px 0px 1px 1px MidnightBlue;
+  border-color: #fffc35;
+}
+
+#buttonX {
+  background-position: -300px;
+  margin-right: 10px;
+}
+
+#buttonO {
+  background-position: -70px;
+  margin-left: 10px;
+}
+
+#message {
+  margin: 0 auto;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  background-image: url(https://c1.staticflickr.com/5/4289/35116391760_9cba845096_o.png);
+}
+

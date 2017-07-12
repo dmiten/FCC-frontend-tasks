@@ -1,0 +1,36 @@
+#main_container {
+  max-width: 350px;
+  margin: 0px auto;
+}
+
+#menu {
+  margin: 20px auto;
+}
+
+#list {
+  margin: 20px auto;
+}
+
+#channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 110%;
+}
+
+.stream {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 90%;
+}
+
+.channel_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.channel_pic {
+  margin: 10px;
+}
